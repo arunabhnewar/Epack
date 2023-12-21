@@ -37,4 +37,28 @@ body {
   font-family: "Inconsolata", sans-serif;
 }
 
+h1 {
+  font-size: 15px;
+
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+
+  @media #{$screen-sm} {
+    font-size: 20px;
+  }
+  @media #{$screen-md} {
+    font-size: 25px;
+  }
+  @media #{$screen-lg} {
+    font-size: 30px;
+  }
+  @media #{$screen-xl} {
+    font-size: 35px;
+  }
+  @media #{$screen-xxl} {
+    font-size: 40px;
+  }
+}
+
 /* Add more reset styles as needed */
