@@ -77,7 +77,7 @@
         <form action="#" class="mt-3">
           <div class="row g-3">
             <!-- Origen area -->
-            <div class="col-sm text-center">
+            <div class="col-sm text-center origen_area">
               <label for="origen" class="fw-medium text-white pb-1"
                 >Origen</label
               >
@@ -89,7 +89,7 @@
             </div>
 
             <!-- Destino area -->
-            <div class="col-sm">
+            <div class="col-sm text-center destino_area">
               <label for="destino" class="fw-medium text-white pb-1"
                 >Destino</label
               >
@@ -101,7 +101,7 @@
             </div>
 
             <!-- Tipo de envio area -->
-            <div class="col-sm">
+            <div class="col-sm text-center enivo_area">
               <label for="tipo_de_envio" class="fw-medium text-white pb-1"
                 >Tipo de envio</label
               >
@@ -113,26 +113,26 @@
             </div>
 
             <!-- Peso area -->
-            <div class="col-sm">
+            <div class="col-sm text-center kg_area">
               <label for="peso" class="fw-medium text-white pb-1"
                 >Peso (kg)</label
               >
               <input
                 type="text"
-                class="form-control"
+                class="form-control w-100"
                 placeholder="kg"
                 aria-label="peso" />
             </div>
 
             <!-- Tamano de caja area -->
-            <div class="col-sm">
+            <div class="col-sm text-center">
               <label for="peso" class="fw-medium text-white pb-1"
                 >Tamano de caja (cm)</label
               >
               <input
                 type="text"
-                class="form-control"
-                placeholder=""
+                class="form-control multple_place"
+                placeholder="Alto | largo | Ancho"
                 aria-label="peso" />
             </div>
 
@@ -140,8 +140,7 @@
               <label for="peso" class="fw-medium text-white pb-1"></label>
               <input
                 type="submit"
-                class="form-control"
-                placeholder=""
+                class="cotizar_btn fw-semibold rounded-5 border-0 outline-0 text-white mt-4"
                 value="Cotizar" />
             </div>
           </div>

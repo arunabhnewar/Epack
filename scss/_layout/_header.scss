@@ -11,9 +11,9 @@ header {
     width: 245px;
     height: 60px;
 
-    // @media #{$screen-lg} {
-    //   width: 200px;
-    // }
+    @media #{$screen-xxl} {
+      width: 200px;
+    }
   }
 
   .nav-item {
