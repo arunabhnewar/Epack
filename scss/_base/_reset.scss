@@ -36,21 +36,21 @@ fieldset {
 html {
   font-size: 62.5%; /* default font size is 10px = 1rem */
 
-  @media #{$screen-sm} {
-    font-size: 75%; /* Adjust as needed for small screens */
-  }
-  @media #{$screen-md} {
-    font-size: 87.5%; /* Adjust as needed for medium screens */
-  }
-  @media #{$screen-lg} {
-    font-size: 100%; /* Default font size for large screens */
-  }
-  @media #{$screen-xl} {
-    font-size: 112.5%; /* Adjust as needed for extra-large screens */
-  }
-  @media #{$screen-xxl} {
-    font-size: 125%; /* Adjust as needed for extra-extra-large screens */
-  }
+  // @media #{$screen-sm} {
+  //   font-size: 75%; /* Adjust as needed for small screens */
+  // }
+  // @media #{$screen-md} {
+  //   font-size: 87.5%; /* Adjust as needed for medium screens */
+  // }
+  // @media #{$screen-lg} {
+  //   font-size: 100%; /* Default font size for large screens */
+  // }
+  // @media #{$screen-xl} {
+  //   font-size: 112.5%; /* Adjust as needed for extra-large screens */
+  // }
+  // @media #{$screen-xxl} {
+  //   font-size: 125%; /* Adjust as needed for extra-extra-large screens */
+  // }
 }
 
 body {
