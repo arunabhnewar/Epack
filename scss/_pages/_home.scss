@@ -45,9 +45,28 @@
         }
       }
 
-      input.form-control[aria-label="tamano"] {
-        @media #{$screen-lg} {
-          padding: 10px 10px !important;
+      .multi-input {
+        border-radius: 16px;
+        input.form-control[aria-label="tamano"],
+        input.form-control[aria-label="largo"],
+        input.form-control[aria-label="Ancho"] {
+          padding: 10px 0px !important;
+          border: 0;
+        }
+        input.form-control[aria-label="tamano"] {
+          border-top-left-radius: 16px;
+          border-bottom-left-radius: 16px;
+        }
+
+        input.form-control[aria-label="Ancho"] {
+          border-top-right-radius: 16px;
+          border-bottom-right-radius: 16px;
+        }
+
+        .input-divider {
+          width: 5px;
+          height: 41px;
+          background-color: #ff8a00;
         }
       }
 
