@@ -18,43 +18,37 @@
   form {
     .enivo_area,
     .destino_area,
-    .origen_area {
-      max-width: 200px;
-      width: 100%;
-
+    .origen_area,
+    .kg_area,
+    .tamano_area {
       label {
         font-size: 16px;
+
+        @media #{$screen-lg} {
+          font-size: 13px;
+        }
+
+        @media #{$screen-xl} {
+          font-size: 16px;
+        }
       }
 
       input.form-control {
         padding: 10px 40px;
         font-size: 14px !important;
         outline: none;
+        @media #{$screen-lg} {
+          font-size: 12px !important;
+        }
+        @media #{$screen-xl} {
+          font-size: 14px !important;
+        }
       }
 
-      input.form-control:focus {
-        border-color: #ff8b00;
-        box-shadow: none;
-      }
-
-      input::placeholder {
-        color: #373736;
-        text-align: center;
-      }
-    }
-
-    .kg_area {
-      max-width: 120px;
-      width: 100%;
-
-      label {
-        font-size: 16px;
-      }
-
-      input.form-control {
-        padding: 10px 40px;
-        font-size: 14px !important;
-        outline: none;
+      input.form-control[aria-label="tamano"] {
+        @media #{$screen-lg} {
+          padding: 10px 10px !important;
+        }
       }
 
       input.form-control:focus {
@@ -109,11 +103,11 @@
     }
 
     .cotizar_btn {
-      width: 190px;
-      height: 50px;
+      width: 100%;
+      padding: 10px 40px;
       background: #0060ac;
       font-size: 16px;
-      margin-top: 23px;
+      margin: 0 0 -10px 0;
     }
   }
 }
