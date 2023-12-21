@@ -1,0 +1,45 @@
+// _variables.scss
+
+// Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Media Queries
+$screen-xs: (
+  max-width: $breakpoint-sm - 1,
+);
+$screen-sm: (
+    min-width: $breakpoint-sm,
+  )
+  and
+  (
+    max-width: $breakpoint-md - 1,
+  );
+$screen-md: (
+    min-width: $breakpoint-md,
+  )
+  and
+  (
+    max-width: $breakpoint-lg - 1,
+  );
+$screen-lg: (
+    min-width: $breakpoint-lg,
+  )
+  and
+  (
+    max-width: $breakpoint-xl - 1,
+  );
+$screen-xl: (
+    min-width: $breakpoint-xl,
+  )
+  and
+  (
+    max-width: $breakpoint-xxl - 1,
+  );
+$screen-xxl: (
+  min-width: $breakpoint-xxl,
+);
