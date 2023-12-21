@@ -1,3 +1,62 @@
 // _layout/_footer.scss
+.footer {
+  background: #018cbe;
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  position: relative;
+  .mapFooter {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    @media #{$screen-sm} {
+      top: -75px;
+    }
+    @media #{$screen-lg} {
+      top: -178px;
+    }
+  }
+  @media #{$screen-lg} {
+    text-align: left;
+  }
+
+  .footer_container {
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+    h2 {
+      font-size: 27px;
+      margin-bottom: 21px;
+    }
+    ul {
+      list-style: none;
+      color: white;
+      li {
+        font-size: 15px;
+        padding: 14px 0px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+    .copyright {
+      font-size: 1rem;
+      padding-top: 70px;
+    }
+    .footer_content {
+      margin-top: 40px;
+      @media #{$screen-lg} {
+        margin-top: 0px;
+      }
+    }
+  }
+}
 
 /* Add or modify styles specific to the footer of the page */
