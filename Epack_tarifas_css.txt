@@ -1,0 +1,31 @@
+Banner-section:
+banner: height: 260px, 
+left-column: logo: width: 170px, height: 170px, py: 40px,
+title: bold, 44px, line-height: 50px
+para: semibold, 22px,
+
+Package Plan Section:
+bg: #e7dcf7
+package table title: bold, 30px, pt: 90px, pb: 20px, gap: 20px
+package table: width: 610px, thead bg:#4d148c, height: 60px, width: 200px, 22px, semibold, 
+ table border: #d2c4e2, 
+tbody bg: #f6f3f9, height: 45px, width: 200px, 20px, regular, color: #373736
+
+3rd table:
+mt:20px, mb: 20px
+
+
+advantage disvantage section:
+green accordion: width: 610px, height: 60px, semibold, 22px, line-hight: 50, bg: #00c868, py-30, px: 20px, icon to title distance- ps:14px
+accordion content: py-30, px: 20px, list-gap-mb: 25px, regular, 18px, color: #373736, icon to list: ps:10px
+
+red accordion: bg: #ff1d25
+
+
+Doll Section:
+height: 760px
+doll image: pt: 105px, pb: 45px
+text: semibold, 18px, color: #0060ac, pb: 25px
+btn: width: 300px, height: 60px, gap: 20px, pb: 90px
+blue btn: bg: #0060ac, semibold, 18px
+green btn: semibold, 18px, bg: #00c868

@@ -1,0 +1,127 @@
+home page: 
+navigation section
+container max-width: 1240px
+height: 120px,
+bg: white
+font-family: poppins,
+font-weight: semibold,
+font-size: 16px,
+color: #0060ac
+
+2 menu distance px: 40px
+logo width: 245px, height: 60px
+
+Entrar Btn: 
+poppins, medium weight, 15px size, border: #ff8b00, width: 128px, height: 40px
+
+ 2 btn distance px: 15px
+
+Registro btn:
+poppins, medium weight, 15px size, border: #ff8b00, width: 128px, height: 40px
+
+
+banner section:
+bg: gradient left side: #0060ac, right side: #018cbe(-90 deg)
+height: 620px,
+pt: 110px,
+
+banner-heading: poppins, bold weight, 54px size, width: 642px, line-hight: 33px
+banner-mid title: color: #ff8b00, poppins, bold weight, 54px size, width: 477px, 2nd line:width: 512px, line-hight: 30px
+banner-txt: poppins, medium, 24px size, width: 584px, line-hight: 33px
+banner-btn: poppins, semibold, 18px size, width: 260px
+round btn to bannerbtn distance: height: 63px
+round btn: mb:30px
+banner-heading to image distance: 60px
+
+
+Form Section:
+mt: 68px, container max-width: 1296px
+p: 30px
+
+form-title: poppins, bold, 40px
+label: poppins, medium, 16px
+placeholder: poppins, medium, 14px, px: 50px, py: 20px
+peso-placeholder: px: 34px
+tamano-placeholder: left: 35px
+submit-btn: input distance: 20px, width: 190px, height: 50px, poppins, semibold, 16px,  bg: #0060ac
+
+
+service section:
+mt: 130px
+mb: 120px
+
+service-heading: poppins, bold, 40px, mb: 60px, color: #0060ac
+service-cards: width: 1240px, service-img: width:100px, height:100px
+card-title: poppins, bold, 22px, #0060ac, pt: 15px, pb: 20px, line-hieght: 26px
+card-text: poppins, regular, 15px, line-height: 21px
+
+service-btn: mt: 67px, width: 260px, height: 60px, poppins, semibold, 18px,
+
+
+Funclona section
+title: pt:75px, poppins, bold, 44px, line-height: 50px
+txt: poppins, regular, 16px, line-height: 26px, pb: 100px, width: 1040px
+
+male & female: blue background height: 724px, with leg height: 768px
+
+
+
+client section:
+mt: 140px, mb: 90px
+box-gap: 65px
+title: poppins, bold, 44px, mb: 70px
+client box: width: 424px, height: 333px, pt+ps: 30px, pr:40px, boxshaddow: #01393d (h:186 deg, s:99%, b:24%) (opacity: 40%, x0y0 blur: 10px)
+coma-icon: width: 55px, height: 42px, color: #d0e4ef
+card-content: poppins, regular, 16px, line-height: 26px (-6), #373736
+card-footer: height: 110px, bg: #e3f4ff, footer-img: width & height: 68px, py: 20px
+footer-text: ps: 15px, name: 18px, pppoins, semibold, line-height: 50px, #373736, position:  14px, pppoins, semibold, ine-height: 50px, #018cde, pb: 20px
+box-navigation-btn: mt: 45px
+client btn: mt: 65px, width: 260px, height: 60, poppins, semibold, 18px
+
+
+
+Logistica section:
+height: 781px
+heading: poppins, bold, 40px, pt: 85px, line-height: 50
+content: pt:80px
+content-img: width: 485px, 
+content-title: bold, 30px, poppins, line-height: 40px, 
+content-mid-text: poppins, semibold, 20px, line-height: 30
+content-point: regular, 16px, poppins, line-height: 36px 
+content -icon: pr: 10px, 
+
+two btns: mt-110px, mb: 45px
+experto btn: width: 260px, height: 60px, semibold, 18px, poppins
+ahora: width: 260, height: 60px, semibold, 18px, poppins
+
+
+
+
+Contact section
+mt: 130px, mb: 90px
+
+cont-form heading: 40px, bold, line-height: 50px, right-color: #018cde, mb: 25px
+left-right gap: 20px
+left side form: width: 400px, height: 60px, bg: #ffefd7, border: #ff8b00, placeholder: regular, 16px, textarea: height: 220px
+form btn: width: 240px, height: 60px
+
+accordion: py: 20px, px: 25px, bg: #018cbe, border: #0060ac, heading: 16px, bold, text: light, 14px, poppins, line-height: 24px, pb: 15px border-bottom:#0060ac, 
+
+
+Footer section:
+footer-content: width: 1240px
+column 1: heading: poppins, bold, 27px, line-height: 33px, pb: 30px
+column list: poppins, 15px, regular, line-height: 37px
+column1 gap column2: gap:185px
+column2 gap column3: gap:135px
+column3 gap column4: gap:50px
+column4 gap column5: gap: 110px
+
+copyright text: mt: 110px, regular, 15px, pb: 40px
+
+whatsapp:
+msg + icon: width: 238px, 
+msg-box: width: 162px, height: 18px, msg: regular, 13.5px
+arrow icon: width: 9px, height: 10px,
+whats app icon: width: 67px, height: 67px, ps: 9px
+
