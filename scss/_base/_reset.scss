@@ -1,5 +1,16 @@
 // _base/_reset.scss
 
+@font-face {
+  font-family: "Inconsolata";
+  src: url("./../../public/fonts/Inconsolata-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body,
 ul,
@@ -23,7 +34,7 @@ fieldset {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inconsolata", sans-serif;
 }
 
 /* Add more reset styles as needed */

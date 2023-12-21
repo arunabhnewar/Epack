@@ -9,37 +9,43 @@ $breakpoint-xl: 1200px;
 $breakpoint-xxl: 1400px;
 
 // Media Queries
-$screen-xs: (
-  max-width: $breakpoint-sm - 1,
-);
-$screen-sm: (
+$screen-xs: only screen and
+  (
+    max-width: $breakpoint-sm - 1,
+  );
+$screen-sm: only screen and
+  (
     min-width: $breakpoint-sm,
   )
   and
   (
     max-width: $breakpoint-md - 1,
   );
-$screen-md: (
+$screen-md: only screen and
+  (
     min-width: $breakpoint-md,
   )
   and
   (
     max-width: $breakpoint-lg - 1,
   );
-$screen-lg: (
+$screen-lg: only screen and
+  (
     min-width: $breakpoint-lg,
   )
   and
   (
     max-width: $breakpoint-xl - 1,
   );
-$screen-xl: (
+$screen-xl: only screen and
+  (
     min-width: $breakpoint-xl,
   )
   and
   (
     max-width: $breakpoint-xxl - 1,
   );
-$screen-xxl: (
-  min-width: $breakpoint-xxl,
-);
+$screen-xxl: only screen and
+  (
+    min-width: $breakpoint-xxl,
+  );
