@@ -11,34 +11,38 @@ header {
     width: 245px;
     height: 60px;
 
-    @media #{$screen-xxl} {
+    @media #{$screen-lg} {
       width: 200px;
+    }
+
+    @media #{$screen-xxl} {
+      width: 245px;
     }
   }
 
   .nav-item {
     padding-left: 20px;
 
-    // @media #{$screen-lg} {
-    //   padding-left: 10px;
-    // }
+    @media #{$screen-lg} {
+      padding-left: 12px;
+    }
 
-    // @media #{$screen-xl} {
-    //   padding-left: 15px;
-    // }
+    @media #{$screen-xl} {
+      padding-left: 20px;
+    }
 
     a {
       color: #0060ac;
       font-size: 16px;
       font-family: "Poppins";
 
-      // @media #{$screen-xl} {
-      //   font-size: 16px;
-      // }
+      @media #{$screen-lg} {
+        font-size: 15px;
+      }
 
-      // @media #{$screen-lg} {
-      //   font-size: 14px;
-      // }
+      @media #{$screen-xl} {
+        font-size: 16px;
+      }
     }
   }
 
