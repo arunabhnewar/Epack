@@ -2,61 +2,103 @@
 
 /* Add or modify styles specific to the contact page */
 
-// Banner Section CSS
-.tarif_hero_container {
-  position: relative;
+main {
+  background-color: #e7dcf7;
 
-  .tarif_banner_container {
-    background: url(./../../assets/images/tarifas/bannerBgFdx.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    padding: 75px 15px 75px;
-    overflow: hidden !important;
-    margin-bottom: 42px;
-    height: 290px;
-    width: 100vw;
+  // Banner Section CSS
+  .tarif_hero_container {
+    position: relative;
 
-    .tarif_banner_section {
-      width: 1240px;
-      display: flex;
+    .tarif_banner_container {
+      background: url(./../../assets/images/tarifas/bannerBgFdx.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      padding: 75px 15px 75px;
+      overflow: hidden !important;
+      margin-bottom: 42px;
+      height: 290px;
+      width: 100vw;
 
-      .left_side {
+      .tarif_banner_section {
+        width: 1240px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
 
-        .fdx_image {
-          width: 170px;
-          height: 170px;
+        .left_side {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+
+          .fdx_image {
+            width: 170px;
+            height: 170px;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .banner_text {
+            h1 {
+              font-size: 44px;
+            }
+
+            p {
+              font-size: 22px;
+            }
+          }
+        }
+
+        .right_side {
+          width: 400px;
+          margin: 0 auto;
+          position: absolute;
+          right: 12%;
+          bottom: -15%;
 
           img {
             width: 100%;
-            height: 100%;
-          }
-        }
-
-        .banner_text {
-          h1 {
-            font-size: 44px;
-          }
-
-          p {
-            font-size: 22px;
           }
         }
       }
+    }
+  }
 
-      .right_side {
-        width: 400px;
-        margin: 0 auto;
-        position: absolute;
-        right: 12%;
-        bottom: -15%;
+  // Tarifas Section CSS
+  .tarifas_package_section {
+    margin-top: 90px;
 
-        img {
-          width: 100%;
+    .cargos_title {
+      font-size: 30px;
+      padding-bottom: 20px;
+      color: #4d148c;
+    }
+
+    table {
+      border-color: #d2c4e2;
+
+      .table-dark,
+      .table-second,
+      .table-third {
+        background: #4d148c !important;
+        font-size: 22px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      tbody {
+        tr:nth-child(even) {
+          td {
+            background-color: #f6f3f9;
+          }
+        }
+
+        tr {
+          td {
+            color: #373736;
+          }
         }
       }
     }
