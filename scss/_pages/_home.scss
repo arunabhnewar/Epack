@@ -314,13 +314,12 @@
   .swiper-slide {
     position: relative;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
     width: 424px;
     height: 333px;
-    // box-shadow: #01393d (h: 186 deg, s: 99%, b: 24%)
-    //   (opacity: 40%, x0y0 blur: 10px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
     .quote_icon {
       padding: 30px 40px 15px 30px;
