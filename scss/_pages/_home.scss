@@ -241,7 +241,7 @@
     padding: 75px 15px 75px;
     overflow: hidden !important;
     margin-bottom: 42px;
-    height: 771px;
+    height: 761px;
     width: 100vw;
 
     .logistica_title {
@@ -283,7 +283,7 @@
           li {
             list-style: none;
             font-size: 16px;
-            line-height: 26px;
+            line-height: 32px;
 
             span {
               padding-right: 10px;
@@ -294,7 +294,7 @@
     }
 
     .logistica_btn_group {
-      padding: 80px 0 45px;
+      padding: 60px 0 45px;
       gap: 20px;
 
       .experto_btn {
@@ -313,6 +313,158 @@
         border: 1px solid #ff8b00;
         border-radius: 28px;
         color: #ff8b00;
+      }
+    }
+  }
+}
+
+// Contáctanos section CSS
+.contáctanos_section {
+  margin-top: 130px;
+  margin-bottom: 90px;
+
+  .contáctanos_container {
+    max-width: 1296px;
+    width: 100%;
+
+    .contact_content {
+      // gap: 20px;
+
+      .contáctanos_side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .left_contact_image {
+          width: 100%;
+          height: 554px;
+
+          img {
+            height: 100%;
+          }
+        }
+
+        .contact_form_heading {
+          font-size: 40px;
+          color: #ff8b00;
+          margin-bottom: 25px;
+        }
+
+        form {
+          width: 400px;
+
+          input {
+            background: #ffefd7;
+            width: 100%;
+            height: 60px;
+            border: 1px solid #ff8b00;
+            border-radius: 10px;
+          }
+
+          .form-control:focus {
+            box-shadow: none;
+            outline: none;
+          }
+
+          input::placeholder {
+            font-size: 16px;
+            font-weight: 500;
+          }
+
+          textarea {
+            background: #ffefd7;
+            width: 100%;
+            height: 220px;
+            border: 1px solid #ff8b00;
+            border-radius: 10px;
+          }
+
+          .enviar_btn {
+            background-color: #ff8b00;
+            width: 240px;
+            height: 60px;
+            border-radius: 28px;
+          }
+        }
+      }
+
+      .frecuentes_side_heading {
+        font-size: 40px;
+        color: #0060ac;
+        margin-bottom: 25px;
+      }
+
+      .frecuentes_side {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        height: 200px;
+
+        .accordion {
+          width: 400px;
+
+          .accordion-item {
+            border-color: #0060ac;
+
+            .accordion-header {
+              background: #018cbe;
+              border-color: #0060ac;
+
+              .accordion-button:focus {
+                box-shadow: none;
+              }
+
+              .accordion-button {
+                background-color: #018cbe !important;
+                color: white;
+              }
+
+              .accordion-button:after {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+              }
+              .accordion-button:not(.collapsed):after {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+              }
+
+              .accordion-button:not(.collapsed) {
+                background-color: #018cbe !important;
+                color: white;
+                font-size: 15px;
+                font-weight: 700 !important;
+              }
+              .accordion-item {
+                background-color: #018cbe !important;
+              }
+
+              .accordion-button:not(.collapsed) {
+                background: #018cbe !important;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 700;
+              }
+              .accordion-collapse.collapse.show {
+                .accordion-body {
+                  background: #018cbe;
+                  font-size: 14px;
+                  font-weight: 400;
+                  color: #fff;
+                  padding: 0;
+                  margin: 0;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+        }
+
+        .right_contact_image {
+          width: 100%;
+          height: 554px;
+
+          img {
+            height: 100%;
+          }
+        }
       }
     }
   }
