@@ -12,6 +12,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
 
+    <!-- font awesome cdn link -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet" />
+
     <!-- Custom CSS Link -->
     <link rel="stylesheet" type="text/css" href="./public/css/styles.min.css" />
   </head>
@@ -235,7 +240,8 @@
                     <tr>
                       <th
                         class="table-third fw-semibold text-white text-start ps-5"
-                        scope="col">
+                        scope="col"
+                        colspan="2">
                         Concepto
                       </th>
                       <th
@@ -247,65 +253,79 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="text-start ps-5">Zona extendida</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Zona extendida
+                      </td>
                       <td class="text-center">$185</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">Medida excedida</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Medida excedida
+                      </td>
                       <td class="text-center">$190</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">Redireccion de envio</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Redireccion de envio
+                      </td>
                       <td class="text-center">$75</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">Cancelacion de guia</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Cancelacion de guia
+                      </td>
                       <td class="text-center">GUIA</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">Guia cancelada utilizada</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Guia cancelada utilizada
+                      </td>
                       <td class="text-center">$189</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">Paquete extra grande</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Paquete extra grande
+                      </td>
                       <td class="text-center">$690</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">Embarque pesado carga</td>
+                      <td class="text-start ps-5" colspan="2">
+                        Embarque pesado carga
+                      </td>
                       <td class="text-center">$740</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">
+                      <td class="text-start ps-5" colspan="2">
                         Seguro hasta <strong>$4,000</strong> pesos
                       </td>
                       <td class="text-center">$160.00</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">
+                      <td class="text-start ps-5" colspan="2">
                         Seguro hasta <strong>$7,000</strong> pesos
                       </td>
                       <td class="text-center">$198.00</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">
+                      <td class="text-start ps-5" colspan="2">
                         Seguro hasta <strong>$10,000</strong> pesos
                       </td>
                       <td class="text-center">2.20%</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">
+                      <td class="text-start ps-5" colspan="2">
                         Seguro hasta <strong>$18,000</strong> pesos
                       </td>
                       <td class="text-center">1.90%</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">
+                      <td class="text-start ps-5" colspan="2">
                         Seguro hasta <strong>$50,000</strong> pesos
                       </td>
                       <td class="text-center">1.70%</td>
                     </tr>
                     <tr>
-                      <td class="text-start ps-5">
+                      <td class="text-start ps-5" colspan="2">
                         Seguro hasta <strong>$100,000</strong> pesos
                       </td>
                       <td class="text-center">1.60%</td>
@@ -326,12 +346,13 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                     <button
-                      class="accordion-button"
+                      class="accordion-button text-white fw-semibold"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
                       aria-expanded="true"
                       aria-controls="collapseOne">
+                      <span><i class="far fa-check-circle"></i></span>
                       Servicios y tiempos de entrega
                     </button>
                   </h2>
@@ -341,24 +362,30 @@
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <ul class="list-group">
+                      <ul class="list-group p-0">
                         <li class="list-group-item border-0">
-                          Recolección Incluida.
+                          <span><i class="fas fa-check"></i></span> Recolección
+                          Incluida.
                         </li>
                         <li class="list-group-item border-0">
+                          <span><i class="fas fa-check"></i></span>
                           Express: Entrega de 1 a 2 días.
                         </li>
                         <li class="list-group-item border-0">
+                          <span><i class="fas fa-check"></i></span>
                           Terrestre: Entrega de 2 a 5 días.
                         </li>
                         <li class="list-group-item border-0">
+                          <span><i class="fas fa-check"></i></span>
                           Indemnización de hasta 30 DSM por daños, robos o
                           extravíos.
                         </li>
                         <li class="list-group-item border-0">
+                          <span><i class="fas fa-check"></i></span>
                           Resolución de incidencias.
                         </li>
                         <li class="list-group-item border-0">
+                          <span><i class="fas fa-check"></i></span>
                           Vigencia de las Guias: 15 días.
                         </li>
                       </ul>

@@ -80,12 +80,20 @@ main {
       border-color: #d2c4e2;
 
       .table-dark,
-      .table-second,
-      .table-third {
+      .table-second {
         background: #4d148c !important;
-        font-size: 22px;
+        font-size: 18px;
         padding-top: 15px;
         padding-bottom: 15px;
+        width: 200px;
+      }
+
+      .table-third {
+        background: #4d148c !important;
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 200px;
       }
 
       tbody {
@@ -98,6 +106,56 @@ main {
         tr {
           td {
             color: #373736;
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+
+  .accordion {
+    max-width: 610px;
+    width: 100%;
+    .accordion-item {
+      .accordion-header {
+        background-color: #00c868;
+
+        .accordion-button:focus {
+          box-shadow: none;
+        }
+
+        .accordion-button {
+          background-color: #00c868;
+          font-size: 22px;
+          line-height: 50px;
+
+          span {
+            font-size: 22px;
+            padding-right: 10px;
+            font-weight: 600;
+          }
+        }
+
+        .accordion-button:after {
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        .accordion-button:not(.collapsed):after {
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+      }
+
+      .accordion-body {
+        padding: 20px 0px;
+        .list-group {
+          .list-group-item {
+            color: #373736;
+            font-size: 18px;
+
+            span {
+              color: #00c868;
+              font-size: 18px;
+              padding-right: 5px;
+            }
           }
         }
       }
