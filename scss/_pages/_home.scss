@@ -297,9 +297,206 @@
   }
 }
 
+// Testimonial Section Css
+.testionial_section {
+  margin-top: 140px;
+  margin-bottom: 90px;
+  max-width: 1240px;
+  width: 100%;
+  position: relative;
+
+  .testimonial_title {
+    font-size: 44px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    color: #ff8b00;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 70%;
+  }
+
+  .swiper-slide {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 424px;
+    height: 333px;
+    // box-shadow: #01393d (h: 186 deg, s: 99%, b: 24%)
+    //   (opacity: 40%, x0y0 blur: 10px);
+
+    .quote_icon {
+      padding: 30px 40px 15px 30px;
+      .fas.fa-quote-left {
+        font-size: 50px;
+        color: #d0e4ef;
+      }
+    }
+
+    .client_review_txt {
+      padding-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 40px;
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        color: #373736;
+      }
+    }
+
+    .card_footer {
+      background: #e3f4ff;
+      height: 110px;
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+
+      .client_img {
+        width: 68px;
+        height: 68px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+
+      .clinet_info {
+        h6 {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 30px;
+          color: #373736;
+        }
+
+        p {
+          font-size: 16px;
+          color: #018cde;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .swiper-slide.swiper-slide-prev::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to right,
+      rgba(83, 79, 79, 0.767),
+      transparent 25%
+    );
+    z-index: 1;
+  }
+
+  .swiper-slide.swiper-slide-next::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to left,
+      rgba(83, 79, 79, 0.767),
+      transparent 25%
+    );
+    z-index: 1;
+  }
+
+  .swiper-slide-active {
+    margin: 0px 10px; /* Adjust margin to center the active slide */
+    // padding: 30px 40px 30px 30px;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    // background-color: #018cbe;
+    color: #0060ac;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .swiper-horizontal {
+    .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      /* bottom: var(--swiper-pagination-bottom,8px); */
+      /* top: var(--swiper-pagination-top,auto); */
+      left: 0px;
+      width: 100%;
+      bottom: -16%;
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 15px;
+    height: 15px;
+    background: #ff8b00;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
+
+  .swiper-button-next {
+    right: 10px;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
+
+  .testimonial_btn {
+    position: absolute;
+    bottom: -35%;
+    left: 41%;
+
+    button {
+      width: 260px;
+      height: 60px;
+      font-weight: 600;
+      font-size: 18px;
+      background: #ff8a00;
+      color: #fff;
+      border: 0;
+      outline: 0;
+      border-radius: 28px;
+    }
+  }
+}
+
 // Logistica Section Css
 .logistica_section {
-  padding-top: 100px;
+  padding-top: 160px;
   padding-bottom: 100px;
 
   .logistica_container {
