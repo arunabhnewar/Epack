@@ -2,6 +2,11 @@
 
 /* Add or modify styles specific to the contact page */
 
+main .tarif_hero_container {
+  position: relative;
+  margin-top: -57px;
+}
+
 main {
   background-color: #e7dcf7;
 
@@ -161,4 +166,67 @@ main {
       }
     }
   }
+}
+// Contáctanos section
+.Contáctanos {
+  background: url(../../assets/images/tarifas/curveWhiteBg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  .robot_img {
+    max-width: 866px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .green_text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0060ac;
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+  .contact_button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+.email_button{
+   a {
+        width: 300px;
+        height: 60px;
+        background: #0060ac;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        display: inline-block;
+        line-height: 60px;
+        border-radius: 25px;
+        text-decoration: none;
+      }
+      .bg_green{
+        background: #00c868 !important;
+      }
+}
+  }
+   .banner_button {
+      display: flex;
+      justify-content: center;
+      a {
+        width: 260px;
+        height: 60px;
+        background: #ff8b00;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        display: inline-block;
+        line-height: 60px;
+        border-radius: 25px;
+        text-decoration: none;
+      }
+    }
 }

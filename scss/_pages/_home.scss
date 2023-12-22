@@ -2,6 +2,75 @@
 
 /* Add or modify styles specific to the home page */
 
+// banner slider section start
+.banner-slider {
+  background: linear-gradient(-90deg, #0060ac 0%, #018cbe 100%);
+  h1 {
+    font-weight: bold;
+    font-size: 54px;
+    color: #fff;
+    line-height: 64px;
+    padding-top: 105px;
+    span {
+      color: #ff8b00;
+      display: block;
+    }
+  }
+  .bottom_content {
+    p {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+      padding-top: 10px;
+      padding-bottom: 25px;
+    }
+    .banner_button {
+      display: flex;
+      justify-content: center;
+      a {
+        width: 260px;
+        height: 60px;
+        background: #ff8b00;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        display: inline-block;
+        line-height: 60px;
+        border-radius: 25px;
+        text-decoration: none;
+      }
+    }
+  }
+  .banner_img {
+    padding-bottom: 70px;
+    padding-top: 20px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -10%;
+  }
+  .carousel-control-next {
+    right: -3%;
+  }
+  .carousel-control-prev {
+    left: -4%;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+  }
+  .carousel-indicators button.active {
+    background-color: #ff8b00;
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+// banner slider section end
+
 // Cotizar Section CSS
 .cotizar_container {
   max-width: 1296px;
@@ -417,6 +486,7 @@
               .accordion-button {
                 background-color: #018cbe !important;
                 color: white;
+                font-size: 15px;
               }
 
               .accordion-button:after {
