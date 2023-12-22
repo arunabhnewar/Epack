@@ -162,15 +162,24 @@ main {
         .accordion-button:focus {
           box-shadow: none;
         }
-
         .accordion-button {
-          background-color: #00c868;
-          font-size: 22px;
           line-height: 50px;
+          font-size: 22px;
+        }
 
+        .accordion-button-one {
+          background-color: #00c868;
+        }
+        .accordion-button-two {
+          background-color: red;
+        }
+
+        .accordion-button-one,
+        .accordion-button-two {
           span {
-            font-size: 22px;
+            font-size: 32px;
             padding-right: 10px;
+            background: transparent;
             font-weight: 600;
           }
         }
@@ -201,8 +210,8 @@ main {
     }
   }
 }
-// Contáctanos section
-.Contáctanos {
+// contactanos section
+.contactanos {
   background: url(../../assets/images/tarifas/curveWhiteBg.svg);
   background-size: cover;
   background-repeat: no-repeat;
