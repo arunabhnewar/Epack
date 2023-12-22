@@ -117,24 +117,23 @@ main {
       color: #4d148c;
     }
 
+    .cargos_table {
+      tbody {
+        tr {
+          td {
+            width: 200px;
+          }
+        }
+      }
+    }
+
     table {
       border-color: #d2c4e2;
 
-      .table-dark,
-      .table-second {
+      th {
         background: #4d148c !important;
-        font-size: 18px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        width: 200px;
-      }
-
-      .table-third {
-        background: #4d148c !important;
-        font-size: 18px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        width: 200px;
+        font-size: 15px;
+        padding: 10px 0px;
       }
 
       tbody {
@@ -147,7 +146,6 @@ main {
         tr {
           td {
             color: #373736;
-            width: 200px;
           }
         }
       }
