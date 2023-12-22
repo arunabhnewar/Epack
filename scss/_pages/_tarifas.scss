@@ -26,7 +26,8 @@ main {
       width: 100vw;
 
       .tarif_banner_section {
-        width: 1240px;
+        max-width: 1240px;
+        width: 100%;
         display: flex;
 
         .left_side {
@@ -36,9 +37,14 @@ main {
           gap: 20px;
 
           .fdx_image {
-            width: 170px;
-            height: 170px;
-
+            max-width: 100px;
+            width: 100%;
+            max-height: 100px;
+            height: 100%;
+            @media #{$screen-md} {
+              max-height: 170px;
+              max-width: 170px;
+            }
             img {
               width: 100%;
               height: 100%;
@@ -47,21 +53,51 @@ main {
 
           .banner_text {
             h1 {
-              font-size: 44px;
+              font-size: 25px;
+              @media #{$screen-sm} {
+                font-size: 44px;
+              }
             }
 
             p {
-              font-size: 22px;
+              font-size: 20px;
+              @media #{$screen-sm} {
+                font-size: 22px;
+              }
             }
           }
         }
 
         .right_side {
-          width: 400px;
+          max-width: 200px;
+          width: 100%;
           margin: 0 auto;
           position: absolute;
-          right: 12%;
-          bottom: -15%;
+          right: 5%;
+          bottom: -2%;
+
+          right: 5%;
+          @media #{$screen-sm} {
+            max-width: 260px;
+            bottom: -5%;
+          }
+
+          @media #{$screen-sm} {
+            max-width: 260px;
+            right: 5%;
+            bottom: -5%;
+          }
+
+          @media #{$screen-md} {
+            max-width: 300px;
+            right: 12%;
+            bottom: -7%;
+          }
+          @media #{$screen-lg} {
+            max-width: 370px;
+            right: 12%;
+            bottom: -10%;
+          }
 
           img {
             width: 100%;
@@ -181,7 +217,7 @@ main {
     text-align: center;
     margin: 0 auto;
   }
-  .green_text{
+  .green_text {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -189,12 +225,12 @@ main {
     margin-top: 45px;
     margin-bottom: 20px;
   }
-  .contact_button{
+  .contact_button {
     display: flex;
     gap: 10px;
     justify-content: center;
-.email_button{
-   a {
+    .email_button {
+      a {
         width: 300px;
         height: 60px;
         background: #0060ac;
@@ -207,26 +243,26 @@ main {
         border-radius: 25px;
         text-decoration: none;
       }
-      .bg_green{
+      .bg_green {
         background: #00c868 !important;
       }
-}
-  }
-   .banner_button {
-      display: flex;
-      justify-content: center;
-      a {
-        width: 260px;
-        height: 60px;
-        background: #ff8b00;
-        color: #fff;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-        display: inline-block;
-        line-height: 60px;
-        border-radius: 25px;
-        text-decoration: none;
-      }
     }
+  }
+  .banner_button {
+    display: flex;
+    justify-content: center;
+    a {
+      width: 260px;
+      height: 60px;
+      background: #ff8b00;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      display: inline-block;
+      line-height: 60px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+  }
 }
