@@ -1,57 +1,23 @@
 {
-  // config related to code formatting
+  "search.exclude": {
+    "**/.sst": true
+  },
+  "task.allowAutomaticTasks": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // Define Prettier-specific settings
-  "prettier.bracketSameLine": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": false,
-  "javascript.validate.enable": false, //disable all built-in syntax checking
-  //disable all built-in syntax checking
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.tslint": "explicit",
-    "source.organizeImports": "explicit"
-  },
-  // bracket pair colorizer
-  "editor.bracketPairColorization.enabled": true,
-  // emmet
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  // live sass compiler
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "public/css"
-    }
-  ],
-  "liveSassCompile.settings.generateMap": false,
-  "editor.formatOnPaste": true
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "debug.openDebug": "neverOpen",
+  "problems.autoReveal": true,
+  "terminal.integrated.hideOnStartup": "always",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.inheritEnv": false,
+  "jestrunner.configPath": "jest.unit.config.cjs",
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
