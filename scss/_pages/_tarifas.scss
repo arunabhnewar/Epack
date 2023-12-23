@@ -109,11 +109,27 @@ main {
 
   // Tarifas Section CSS
   .tarifas_package_section {
+    .mt-30px {
+      margin-top: 20px;
+    }
     margin-top: 90px;
-
+    // .extra_radius {
+    //   position: relative;
+    //   &::after {
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 10px;
+    //     content: "";
+    //     background: #8c1414;
+    //     border-radius: 15px;
+    //     left: 0;
+    //     top: -20px;
+    //     // z-index: ;
+    //   }
+    // }
     .cargos_title {
       font-size: 30px;
-      padding-bottom: 20px;
+      // padding-bottom: 20px;
       color: #4d148c;
     }
 
@@ -243,6 +259,7 @@ main {
   }
   .contact_button {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     .email_button {
