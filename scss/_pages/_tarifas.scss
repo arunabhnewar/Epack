@@ -113,23 +113,10 @@ main {
       margin-top: 20px;
     }
     margin-top: 90px;
-    // .extra_radius {
-    //   position: relative;
-    //   &::after {
-    //     position: absolute;
-    //     width: 100%;
-    //     height: 10px;
-    //     content: "";
-    //     background: #8c1414;
-    //     border-radius: 15px;
-    //     left: 0;
-    //     top: -20px;
-    //     // z-index: ;
-    //   }
-    // }
+
     .cargos_title {
       font-size: 30px;
-      // padding-bottom: 20px;
+
       color: #4d148c;
     }
 
@@ -177,8 +164,7 @@ main {
             box-shadow: none;
           }
           .accordion-button {
-            // line-height: 50px;
-            line-height: 15px;
+            line-height: 30px;
             font-size: 22px;
           }
 
