@@ -594,27 +594,15 @@
   margin-top: 130px;
   margin-bottom: 90px;
 
+  background-repeat: no-repeat;
+  // background-size: 80%;
+  background-position: left top;
   .contáctanos_container {
     max-width: 1296px;
     width: 100%;
 
     .contact_content {
-      // gap: 20px;
-
       .contáctanos_side {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .left_contact_image {
-          width: 100%;
-          height: 554px;
-
-          img {
-            height: 100%;
-          }
-        }
-
         .contact_form_heading {
           font-size: 40px;
           color: #ff8b00;
@@ -622,6 +610,10 @@
         }
 
         form {
+          background-image: url(./.././../assets/images/Form/formLeft.svg);
+          background-repeat: no-repeat;
+          // background-size: 80%;
+          background-position: left top;
           width: 400px;
 
           input {
@@ -666,76 +658,67 @@
       }
 
       .frecuentes_side {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        height: 200px;
+        background-image: url(./.././../assets/images/Form/formRight.svg);
+        background-repeat: no-repeat;
+        // background-size: 80%;
+        background-position: right top;
+      }
 
-        .accordion {
-          width: 400px;
+      .accordion {
+        width: 400px;
 
-          .accordion-item {
+        .accordion-item {
+          border-color: #0060ac;
+
+          .accordion-header {
+            background: #018cbe;
             border-color: #0060ac;
 
-            .accordion-header {
-              background: #018cbe;
-              border-color: #0060ac;
-
-              .accordion-button:focus {
-                box-shadow: none;
-              }
-
-              .accordion-button {
-                background-color: #018cbe !important;
-                color: white;
-                font-size: 15px;
-              }
-
-              .accordion-button:after {
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-              }
-              .accordion-button:not(.collapsed):after {
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-              }
-
-              .accordion-button:not(.collapsed) {
-                background-color: #018cbe !important;
-                color: white;
-                font-size: 15px;
-                font-weight: 700 !important;
-              }
-              .accordion-item {
-                background-color: #018cbe !important;
-              }
-
-              .accordion-button:not(.collapsed) {
-                background: #018cbe !important;
-                color: #fff;
-                font-size: 15px;
-                font-weight: 700;
-              }
+            .accordion-button:focus {
+              box-shadow: none;
             }
 
-            .accordion-collapse {
-              .accordion-body {
-                background: #018cbe;
-                font-size: 14px;
-                font-weight: 400;
-                color: #fff;
-                padding: 5px 25px;
-                margin: 0;
-                line-height: 24px;
-              }
+            .accordion-button {
+              background-color: #018cbe !important;
+              color: white;
+              font-size: 15px;
+            }
+
+            .accordion-button:after {
+              background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            }
+            .accordion-button:not(.collapsed):after {
+              background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            }
+
+            .accordion-button:not(.collapsed) {
+              background-color: #018cbe !important;
+              color: white;
+              font-size: 15px;
+              font-weight: 700 !important;
+            }
+            .accordion-item {
+              background-color: #018cbe !important;
+            }
+
+            .accordion-button:not(.collapsed) {
+              background: #018cbe !important;
+              color: #fff;
+              font-size: 15px;
+              font-weight: 700;
             }
           }
-        }
 
-        .right_contact_image {
-          width: 100%;
-          height: 554px;
-
-          img {
-            height: 100%;
+          .accordion-collapse {
+            .accordion-body {
+              background: #018cbe;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              padding: 5px 25px;
+              margin: 0;
+              line-height: 24px;
+            }
           }
         }
       }
