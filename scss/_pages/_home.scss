@@ -594,26 +594,22 @@
   margin-top: 130px;
   margin-bottom: 90px;
 
-  background-repeat: no-repeat;
-  // background-size: 80%;
-  background-position: left top;
   .contáctanos_container {
     max-width: 1296px;
     width: 100%;
+    .contáctanos_side_bg {
+      background-image: url(./.././../assets/images/Form/formLeft.svg);
+      background-repeat: no-repeat;
+      background-position: left bottom;
+    }
 
     .contact_content {
+      .contact_form_heading {
+        font-size: 40px;
+        color: #ff8b00;
+      }
       .contáctanos_side {
-        .contact_form_heading {
-          font-size: 40px;
-          color: #ff8b00;
-          margin-bottom: 25px;
-        }
-
         form {
-          background-image: url(./.././../assets/images/Form/formLeft.svg);
-          background-repeat: no-repeat;
-          // background-size: 80%;
-          background-position: left top;
           width: 400px;
 
           input {
@@ -661,7 +657,7 @@
         background-image: url(./.././../assets/images/Form/formRight.svg);
         background-repeat: no-repeat;
         // background-size: 80%;
-        background-position: right top;
+        background-position: right bottom;
       }
 
       .accordion {
