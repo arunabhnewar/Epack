@@ -606,9 +606,11 @@
     margin-top: 90px;
     margin-bottom: 90px;
     flex-direction: column-reverse;
+    align-items: center;
 
     @media #{$screen-md} {
       flex-direction: row;
+      align-items: start;
     }
 
     .contact_form {
@@ -616,8 +618,12 @@
       width: 100%;
 
       .contact_form_heading {
-        font-size: 36px;
+        font-size: 30px;
         color: #ff8b00;
+
+        @media #{$screen-lg} {
+          font-size: 36px;
+        }
       }
 
       form {
@@ -666,13 +672,18 @@
       width: 100%;
 
       .frecuentes_side_heading {
-        font-size: 36px;
+        font-size: 30px;
         color: #0060ac;
         padding-bottom: 37px;
+
+        @media #{$screen-lg} {
+          font-size: 36px;
+        }
       }
 
       .accordion {
-        width: 400px;
+        max-width: 400px;
+        width: 100%;
 
         .accordion-item {
           border-color: #0060ac;
