@@ -430,7 +430,6 @@
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    // background-color: #018cbe;
     color: #0060ac;
     border-radius: 50%;
     display: flex;
@@ -445,8 +444,6 @@
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-      /* bottom: var(--swiper-pagination-bottom,8px); */
-      /* top: var(--swiper-pagination-top,auto); */
       left: 0px;
       width: 100%;
       bottom: -16%;
@@ -465,11 +462,22 @@
   }
 
   .swiper-button-next {
-    right: 10px;
+    right: 0;
+    @media #{$screen-sm} {
+      right: 10px;
+    }
   }
 
   .swiper-button-prev {
-    left: 10px;
+    left: 0;
+    @media #{$screen-sm} {
+      left: 10px;
+    }
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 30px;
   }
 
   .testimonial_btn {
@@ -504,7 +512,6 @@
     padding: 75px 15px 75px;
     overflow: hidden !important;
     margin-bottom: 42px;
-    // height: 761px;
     width: 100vw;
 
     .logistica_title {
